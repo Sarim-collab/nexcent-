@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 40px 130px;
+    gap: 678px;
+    
+ }
+ @font-face{
+    font-family: My font ;
+src: url(fonts/Inter_24pt-Regular.ttf);
+ }
+.navlinks{
+display: flex;
+gap: 50px;
+}
+.navlinks li{
+    list-style: none;
+}
+.navlinks li a{
+        text-decoration: none;
+}
