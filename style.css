@@ -10,6 +10,10 @@ header{
     padding: 40px 130px;
     gap: 378px;
     
+    
+ }
+ .bars{
+    display: none;
  }
  
 .navlinks{
@@ -39,3 +43,165 @@ align-items: center;
     color: white;
 
 }
+.mainhero{
+    background-color: #F5F7FA;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 72.39px;  
+    padding: 66.82 100.23;
+   
+}
+.heropara{
+    gap :22.27px;
+    
+}
+.heropara h1{
+    font-size :44.55px;
+}
+ #two{
+    color:#4CAF4F;
+
+}
+.heropara p{
+    font-size: 13.14px;
+}
+.heroimg img{
+width: 290px;
+}
+.herobtn button{
+    border: none;
+    outline: none;
+    background-color: #4CAF4F;
+    width: 89.55px;
+    height: 36.49px;
+    padding: 9.74px 22.27px;
+    border-radius: 2.78px;
+    gap: 6.96px;
+}
+.clientssection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100.23px;
+    gap: 11.14px;
+}
+.clientscontent{
+    gap: 5.57px;
+}
+.clientscontent h1{
+    font-size: 35.06px;
+}
+.clientscontent p{
+    font-weight: 400;
+    font-size: 13.5px;
+}
+.clientimg{
+    display: flex;
+    width: 801.87px;
+    height: 68.21px;
+    justify-content: space-between;
+}
+.clientimg img{
+    height: 35px;
+}
+/* .communitysection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.organizationsection{
+    width: 208.12;
+    height: 182.09;
+    border-radius:5.57px ;
+} */
+    
+
+
+
+
+
+/* media qurries start */
+@media screen and (max-width: 480px) {
+
+
+    .navlinks{
+    display: none;
+}
+header{
+    
+padding: 15px 5px 95px  20px;  
+gap: 20%;
+
+
+}
+.bars{
+   display: block;
+    display: flex;
+    
+}
+
+.mainlogo img{
+    width: 100px;
+    display: flex;
+
+}
+.mainhero{
+    padding: 0px;
+    gap: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+          
+   
+    
+}
+.heroimg img{
+    width: 200px;
+
+}
+.clientimg{
+display: none;
+}
+}
+
+
+@media screen  and (min-width: 481px)  and (max-width: 768px) {
+.navlinks{
+    display: none;
+}
+header{
+    
+padding: 15px;  
+    gap: 37%;
+
+
+}
+.bars{
+   display: block;
+    display: flex;
+    
+    
+}
+
+.mainlogo img{
+    width: 130px;
+    display: flex;
+
+}
+.clientimg{
+    display: none;
+}
+}
+
+@media screen  and (min-width: 769px)  and (max-width: 1279px) {
+header{
+    padding: 20px 12px;
+    gap: 12%;
+}
+}
+ /* media qurries end  */
+  
