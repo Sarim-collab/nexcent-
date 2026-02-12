@@ -4,7 +4,7 @@
 
 }
 header{
-    width: 100%;
+    width: 80%;
     display: flex;
     background-color: #FFFFFF;
     padding: 40px 130px;
@@ -46,12 +46,12 @@ align-items: center;
 .mainhero{
     background-color: #F5F7FA;
     height: 400px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 72.39px;  
     padding: 66.82 100.23;
-   
 }
 .heropara{
     gap :22.27px;
@@ -107,19 +107,214 @@ width: 290px;
 .clientimg img{
     height: 35px;
 }
-/* .communitysection{
+.communitysection{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+}    
+.cardsmain{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 1002.34px;
+height: 196.09px;
+opacity: 1;
+padding-right: 100.23px;
+padding-left: 100.23px;
 }
-.organizationsection{
-    width: 208.12;
-    height: 182.09;
-    border-radius:5.57px ;
-} */
+.cardsmain .card{
+width: 208.12px;
+height: 182.09px;
+opacity: 1;
+gap: 5.57px;
+border-radius: 5.57px;
+padding-top: 16.71px;
+padding-right: 22.27px;
+padding-bottom: 16.71px;
+padding-left: 22.27px;
+background-color: #FFFFFF;
+box-shadow: 0px 1.39px 2.78px 0px #ABBED133;
+}
+.pixelgrade{
     
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center; 
+    align-items: center;
+    gap: 72.39px;   
+    padding: 66.82px 0px;
+}
+.heropara h1{
+font-size: 35px;
+}
+.businesscontent h1{
+    font-size: 30px;
+}
+.businesscontent #cd{
+color: #4CAF4F;
+}
+
+.businessmain{
+    width: 1002.3400268554688;
+height: 202.93966674804688;
+justify-content: center;
+gap: 200px;
+opacity: 1;
+padding-top: 44.55px;
+padding-right: 100.23px;
+padding-bottom: 44.55px;
+padding-left: 100.23px;
+display: flex;
+background-color: #F5F7FA;
+
+
+}
+.businesscontent{
+    width: 375.87;
+height: 84.56;
+opacity: 1;
+gap: 5.57px;
+
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+}
+.communitysection button{
+    border: none;
+    outline: none;
+    background-color: #4CAF4F;
+    width: 119.55px;
+    height: 36.49px;
+    padding: 9.74px 22.27px;
+    border-radius: 2.78px;
+    gap: 6.96px;
+    
+}
+.communitysection{
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+footer{
+    background-color: #263238;
+    
+}
+.footer{
+    display: flex;
+    width: 1002.34px;
+height: 129.21px;
+opacity: 1;
+gap: 87.01px;
+padding-top: 44.55px;
+padding-right: 114.85px;
+padding-bottom: 44.55px;
+padding-left: 114.85px;
+gap: 350px;
+}
+.copyright{
+width: 244px;
+opacity: 1;
+display: flex;
+flex-direction: column;
+gap: 30px;
+color: white;
+}
+.copyright .mainimg{
+    width: 130.94px;
+height: 22.78px;
+opacity: 1;
+
+}
+.paraofone{
+    font-size: small;
+}
+.logos{
+    display: flex;
+    gap: 15px;
+}
+.input{
+    width: 177.49px;
+height: 27.84px;
+top: 36.71px;
+opacity: 0.2;
+border-radius: 5.57px;
+}
+.company{
+    width: 111.37px;
+height: 140.11px;
+opacity: 1;
+gap: 16.71px;
+display: flex;
+flex-direction: column;
+}
+.company ul li {
+list-style: none;
+}
+.company ul li a{
+    text-decoration: none;
+    color: white;
+}
+.company h3{
+    color: white;
+}
+.company ul{
+font-size: 11.74px;
+gap: 10px;
+display: flex;
+flex-direction: column;
+}
+.support{
+width: 111.37px;
+height: 140.11px;
+opacity: 1;
+gap: 16.71px;
+display: flex;
+flex-direction: column;
+}
+.support ul li {
+list-style: none;
+}
+.support ul li a{
+    text-decoration: none;
+    color: white;
+}
+.support h3{
+    color: white;
+}
+.support ul{
+font-size: 11.74px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.stayuptodate{
+    width: 177.49px;
+height: 64.58px;
+opacity: 1;
+gap: 16.71px;
+}
+.stayuptodate h3{
+    color: white;
+}
+.secondsection{
+    display: flex;
+    width: 442.00px;
+height: 140.11px;
+opacity: 1;
+gap: 20.88px;
+
+}
+.forback{
+    background-color: #F5F7FA;
+    width: 100%;
+}
+
+
+
 
 
 
@@ -151,23 +346,106 @@ gap: 20%;
 
 }
 .mainhero{
-    padding: 0px;
+    padding: 15px 5px 95px 10px; 
     gap: 0px;
     display: flex;
     flex-direction: column-reverse;
-          
+        width: 90% ;
+      
    
     
+}
+.heropara{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
 }
 .heroimg img{
     width: 200px;
 
 }
 .clientimg{
-display: none;
-}
-}
+display: block;
+display: flex;
+flex-direction: column;
+align-items: center;
 
+width: 50px;
+height: 50px;
+}
+.heropara p{
+   font-size: 10px;
+}
+.clientssection{
+    display: flex;
+    align-items: center;
+}
+.clientscontent h1{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+}
+.clientscontent p{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+
+}
+.communitycontent h1{
+    font-size: large;
+}
+.communitycontent{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+}
+.communitysection{
+       padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: ;
+}
+.cardsmain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 0px;
+    
+    padding-left: 30px;
+}
+.pixelgrade{
+    padding-top: 600px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.heropara h1{
+font-size: x-large;
+}
+.heropara{
+    width: 250px;
+}
+.businessmain{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 45%;
+}
+.businesscontent{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.forback{
+background-color: white;
+display: flex; 
+}
+footer{
+    display: none;
+}
+}
 
 @media screen  and (min-width: 481px)  and (max-width: 768px) {
 .navlinks{
@@ -182,7 +460,7 @@ padding: 15px;
 }
 .bars{
    display: block;
-    display: flex;
+    
     
     
 }
@@ -192,16 +470,38 @@ padding: 15px;
     display: flex;
 
 }
+.mainhero{
+    width: 90%;
+}
 .clientimg{
-    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.clientimg img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+
 }
 }
 
 @media screen  and (min-width: 769px)  and (max-width: 1279px) {
 header{
     padding: 20px 12px;
-    gap: 12%;
+    gap: 5px;
+    align-items: center;
 }
+.mainhero{
+    width: 95%;
 }
+.clientimg{
+    width: 90%;
+    }
+}
+
  /* media qurries end  */
   
+
+
